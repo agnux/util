@@ -3,7 +3,8 @@
 #include <string>
 #include <algorithm>
 /** 
-    simples conversor de número natural para o sistema binário. 17/11/2024
+    simples conversor de número natural para o sistema binário. Método Leibnitz.
+    17/11/2024
     alexandr_mc2
 **/
 
