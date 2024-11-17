@@ -1,21 +1,20 @@
 #include <iostream>
-// #include <vector>
 #include <string>
 #include <algorithm>
+
 /** 
     simples conversor de número natural para o sistema binário. Método Leibnitz.
     17/11/2024
     alexandr_mc2
+
+       p  |  r
+          ------
+       d     q
+
 **/
 
 
 using namespace std;
-  /** 
-       p  |  r
-          ------
-       d     q
-    **/
-
 
 string naturalTo2( int entrada ) {
   string saida = "";
@@ -37,6 +36,7 @@ string naturalTo2( int entrada ) {
   reverse(saida.begin(), saida.end());
   return saida;
 }
+
 
 int main(void){
   int natural;
